@@ -22,4 +22,5 @@ client.close()
 
 print(f"接收資料量：{received / (1024*1024):.2f} MB")
 print(f"接收時間：{end - start:.4f} 秒")
+
 print(f"接收速度：約 {(received/1024/1024) / (end - start):.2f} MB/s")
